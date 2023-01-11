@@ -1,8 +1,18 @@
-import React from 'react'
+import React from 'react';
+import Section, { SectionContent } from "../section/Section"
 
-const HomeSection = () => {
+const HomeSection = props => {
   return (
-    <div>HomeSection</div>
+    <Section
+      className={props.className}
+    >
+      <SectionContent
+        className={props.contentClassName}
+        bgImage={props.bgImage}
+      >
+        {props.children}
+      </SectionContent>
+    </Section>
   )
 }
 
