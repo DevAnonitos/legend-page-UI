@@ -44,7 +44,7 @@
             &::after {
                 content: "";
                 position: absolute;
-                height: 2px;
+                height: 1px;
                 width: 0;
                 background-color: $main-color;
                 transition: width 0.3s ease;

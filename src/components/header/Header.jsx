@@ -3,8 +3,6 @@ import "./header.scss";
 
 import { logo } from "../../assets/images";
 
-import Login from '../button/Login/Login';
-
 const Header = () => {
   return (
     <>
@@ -17,10 +15,10 @@ const Header = () => {
             />
           </div>
 
-          <ul className='header__nav antialiased'>
+          <ul className='header__nav antialiased text-zinc-200'>
             <li>
               <a href="#">
-                overview
+                overview     
               </a>
             </li>
             <li>
